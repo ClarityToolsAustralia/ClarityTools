@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clarity Tools Support</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'League Spartan', sans-serif;
+            background: #000000;
+            color: #ffffff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 600px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            letter-spacing: -0.02em;
+        }
+
+        .tagline {
+            font-size: 14px;
+            color: #71717a;
+            text-transform: uppercase;
+            letter-spacing: 0.15em;
+            margin-bottom: 64px;
+            font-weight: 500;
+        }
+
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .description {
+            font-size: 18px;
+            color: #a1a1aa;
+            line-height: 1.6;
+            margin-bottom: 48px;
+            font-weight: 400;
+        }
+
+        .email-box {
+            background: #18181b;
+            border: 1px solid #27272a;
+            border-radius: 12px;
+            padding: 32px;
+            margin-bottom: 32px;
+            transition: border-color 0.3s ease;
+        }
+
+        .email-box:hover {
+            border-color: #52525b;
+        }
+
+        .email-label {
+            font-size: 12px;
+            color: #71717a;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 12px;
+            font-weight: 600;
+        }
+
+        .email-link {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: -0.01em;
+            transition: opacity 0.3s ease;
+        }
+
+        .email-link:hover {
+            opacity: 0.7;
+        }
+
+        .footer {
+            font-size: 12px;
+            color: #52525b;
+            margin-top: 64px;
+            font-weight: 400;
+        }
+
+        .apps {
+            margin-top: 48px;
+            padding-top: 48px;
+            border-top: 1px solid #27272a;
+        }
+
+        .apps-title {
+            font-size: 14px;
+            color: #71717a;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            margin-bottom: 24px;
+            font-weight: 600;
+        }
+
+        .app-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .app-item {
+            background: #18181b;
+            border: 1px solid #27272a;
+            border-radius: 8px;
+            padding: 16px;
+            text-align: left;
+            transition: border-color 0.3s ease;
+        }
+
+        .app-item:hover {
+            border-color: #52525b;
+        }
+
+        .app-name {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            letter-spacing: -0.01em;
+        }
+
+        .app-desc {
+            font-size: 14px;
+            color: #71717a;
+            font-weight: 400;
+        }
+
+        @media (max-width: 640px) {
+            .logo {
+                font-size: 36px;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+
+            .description {
+                font-size: 16px;
+            }
+
+            .email-link {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Clarity Tools</div>
+        <div class="tagline">Australia</div>
+
+        <h1>Support</h1>
+        <p class="description">
+            Need help? Have questions? We're here to help. Reach out to us directly via email and we'll get back to you as soon as possible.
+        </p>
+
+        <div class="email-box">
+            <div class="email-label">Contact Email</div>
+            <a href="mailto:ClarityToolsAustralia@gmail.com" class="email-link">
+                ClarityToolsAustralia@gmail.com
+            </a>
+        </div>
+
+        <div class="apps">
+            <div class="apps-title">Our Apps</div>
+            <div class="app-list">
+                <div class="app-item">
+                    <div class="app-name">Margin.</div>
+                    <div class="app-desc">Notes-first calorie tracking</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            © 2026 Clarity Tools Australia
+        </div>
+    </div>
+</body>
+</html>
